@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: monospace,Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #1a1f24;
+}
+.r-p{
+    padding-top: 80px ;
+    padding-bottom:80px; ;
+}
+
+.bg-sec{
+    background-color:#f7f7f7;
+}
+.r-btn{
+    padding: 5px 20px;
+    background-color: cadetblue;
+    color: #fdffff !important;
+
+}
+/* Navigation */
+nav .navbar-brand{
+    font-size: 30px;
+    color: #ffff;
+
+}
+nav .navbar-nav li a{
+    color : rgba(191, 240, 240, 0.8) !important;
+    font-size: 15px;
+    letter-spacing: 0.05pc;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+nav .navbar-nav li{
+    margin-left: 20px;
+}
+nav.navigation {
+    background-color: black ;
+    padding: 20px 0;
+    transition: 0.5s all;
+}
+
+nav.navigation.stikyAdd {
+    background-color: rgb(0, 3, 10) ;
+    padding: 15px 0;
+    box-shadow: 0 1px 8px 3px rgba(112, 112, 190, 0.6);
+    transition: 0.3s all ease-in-out;
+    
+}
+
+
+nav.stikyAdd .navbar-brand {
+    color: #088efc;
+    font-size: 30px;
+    transition: 0.5s all;
+}
+/* Header Section */
+
+header{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient( rgba(0, 0, 0, .6),rgba(0,0,0,.5)) , url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box{
+    max-width: 700px;
+    color:white;
+}
+.content-box h4{
+    font-size: 30px;
+}
+.content-box h1{
+    font: size 52px;
+}
+
+.content-box a{
+    color:aliceblue;
+    text-decoration: none;
+    border: 2px solid wheat;
+    border-radius: 20px;
+    padding: 5px 20px;
+}
+
+.content-box a:hover{
+    color: black;
+    font-weight: 400;
+    background-color: white;
+    transition: .6s all;
+}
+
+.content-box p{
+    color: antiquewhite;
+
+}
+/* About */
+.about li a{
+    color: #1a1f24;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border: 2px solid #c2c4c4;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: .4s all;
+}
+.about li a:hover {
+    color: #575757;
+}
+
+/* Experience */
+.exp-class .progress
+{
+    height: 15px;
+    border-radius: 20px;
+    font-size: 10px;
+
+}
+.progress-bar
+{
+    background-color: blue;
+}
+.exp-class label{
+    font-size: 20px;
+    margin: 10px;
+
+}
+/* Sevices */
+
+.card,.card-header{
+    background: #F8F9FA !important;
+    
+}
+.card-header{
+    border: none !important;
+    border-radius: 6px;
+}
+.sevices-class .card-header svg{
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+}
+.service-border{
+    height: 2px;
+    width: 40px;
+    margin: 15px auto;
+    background: #e66f78;
+}
+/* testimony */
+.testimony .test-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.testimony svg{
+    color: #7a7a7a;
+}
+.testimony .carousel-indicators li {
+    background-color: gray;
+    border-radius: 50%;
+    width: 12px; 
+    height: 12px; 
+}
+
+/* work */
+.work-sec .card-wrapper{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact .r-icon{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+footer{
+    height: 200px;
+    background-color: #302e2e;
+
+}
+footer li a{
+    color: #ffffff;
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: .4s all;
+}
+footer li a:hover {
+    color: #585757;
+    transition: .5s all;
+}
